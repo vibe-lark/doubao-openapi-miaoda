@@ -1,0 +1,68 @@
+{
+  "original_sha256": "883467edf352212b8afd5728ebe8d8a398b1dbeb271a3108bebdca56a61e5410",
+  "presentation": "Original complete HTML DOM/CSS/SVG preserved; isolated full-viewport same-origin frame with host adapter",
+  "visual_comparison": {
+    "result": [
+      {
+        "width": 1440,
+        "height": 960,
+        "state": "welcome",
+        "pngEqual": true
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "state": "detail",
+        "pngEqual": true
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "state": "welcome",
+        "pngEqual": true
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "state": "detail",
+        "pngEqual": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "state": "welcome",
+        "pngEqual": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "state": "detail",
+        "pngEqual": true
+      }
+    ],
+    "errors": []
+  },
+  "visual_test_conditions": "Identical browser, viewport, empty user preferences, fixture data; platform badge dismissed with its supported per-user preference; application UI pixels compared",
+  "integration_with_mocked_transport": {
+    "mockedTransport": true,
+    "snapshotReplacement": true,
+    "replyMatching": true,
+    "interrupt": true,
+    "logout": true,
+    "sent": 2,
+    "reads": 6,
+    "errors": []
+  },
+  "real_authorization_popup": "Reached Feishu scan login; manual close and retry passed",
+  "real_user_grant_and_generation": "not performed",
+  "checks": {
+    "typecheck": "passed",
+    "eslint": "passed",
+    "build": "passed",
+    "unit_tests": {
+      "passed": 5,
+      "failed": 0,
+      "assertions": 12
+    }
+  }
+}

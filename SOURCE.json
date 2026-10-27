@@ -1,0 +1,13 @@
+{
+  "source_commit": "c19e372c28a3ecac0f3eb600c4863a8089000efe",
+  "snapshot": "2026-10-27",
+  "original_html_sha256": "883467edf352212b8afd5728ebe8d8a398b1dbeb271a3108bebdca56a61e5410",
+  "excluded": [
+    "Miaoda application binding and platform project metadata",
+    "environment files and credentials",
+    "generated agent guides",
+    "logs, build outputs and node_modules",
+    "source repository git history"
+  ],
+  "runtime_changes": "None; original HTML and business modules copied without modification. Public documentation, configuration template, packaging and import helper added."
+}
