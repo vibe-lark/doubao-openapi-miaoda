@@ -23,7 +23,7 @@
 需要 Node.js 20+（实际验证使用 24）和 Bun 1.3.11+。
 
 ```bash
-git clone https://github.com/amoblin-c/doubao-openapi-miaoda.git
+git clone https://github.com/vibe-lark/doubao-openapi-miaoda.git
 cd doubao-openapi-miaoda
 bun install --frozen-lockfile --ignore-scripts
 bun run type:check
